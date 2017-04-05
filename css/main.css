@@ -1,0 +1,409 @@
+/**********
+General
+**********/
+
+* {
+  color: #020202;
+  font-family: 'Roboto Condensed', sans-serif;
+  margin: 0;
+  padding: 0;
+  text-decoration: none;
+  list-style: none;
+  text-align: center;
+}
+
+a {
+  text-decoration: none;
+}
+
+#desc {
+  margin: 20px;
+  font-size: 2.25vw;
+  color: #020202;
+  text-align: center;
+}
+
+/**********
+Header
+**********/
+
+header {
+  margin-top: 4vw;
+  height: 100%;
+  padding-bottom: 0.486vw;
+}
+
+h1 {
+  font-family: 'Righteous', cursive;
+  font-size: 4.37vw;
+  text-align: center;
+  margin: 0 0 0 0;
+  z-index: 99;
+}
+
+h2 {
+  font-family: 'Righeous', cursive;
+  font-size: 2.92vw;
+  text-align: center;
+  margin: 0;
+  z-index: 99;
+}
+
+
+/**********
+Navigation
+**********/
+
+
+nav {
+  align-content: center;
+  text-align: center;
+  max-width: 100%;
+  display: inline-block;
+  width: 100%;
+  margin: 0;
+  padding: 0;
+  z-index: 1;
+}
+
+nav ul {
+  position: fixed;
+  top: 0;
+  width: 100%;
+  height: 6vw;
+  z-index: 99;
+}
+
+nav li {
+  padding: 0;
+  margin: 0;
+  display: inline-block;
+  font-family: 'Cantarell', sans-serif;
+  font-size: 2.527vw;
+  width: 10.2vw;
+  height: 5.93vw;
+  z-index: 99;
+}
+
+/**********
+Body
+**********/
+
+section {
+  margin: 2.9vw;
+}
+
+h3 {
+  margin: 1vw 0 0 0;
+  font-size: 2.50vw;
+  z-index: 99;
+  font-weight: bold;
+}
+
+p {
+  position: relative;
+  font-size: 1.90vw;
+  margin: 10px 0 0 0;
+}
+
+#watermark {
+  position: fixed;
+  opacity: 0.2;
+  color: black;
+  height: 60vw;
+  width: auto;
+  margin-top: 25vw;
+  left: 50%;
+  margin-right: -50%;
+  transform: translate(-50%, -50%);
+  z-index: 1;
+}
+
+
+
+
+
+/**********
+Footer
+**********/
+
+footer {
+  padding: 20px;
+}
+
+/**********
+Color
+**********/
+
+header {
+  background-color: #000032;
+}
+
+h1 a {
+  color: #ddb500;
+}
+
+h2 a {
+  color: #ddb500;
+}
+
+nav {
+  background-color: #000032;
+}
+
+nav ul {
+  background-color: #000032;
+}
+
+nav li {
+  background-color: #000032;
+}
+
+nav a {
+  color: white;
+}
+
+nav a:hover {
+  color: #FFD700;
+}
+
+body {
+  background-color: #f2f2f2;
+}
+
+p {
+  color: #202020;
+}
+
+
+/**********
+Dropdown Menu
+Thanks goodness for
+W3 Schools,
+the savior of my class
+**********/
+
+/* Dropdown Button */
+.dropbtn {
+    background-color: #000032;
+    color: white;
+    margin: 0;
+    padding: 0;
+    font-size: 2.527vw;
+    border: none;
+    cursor: pointer;
+    width: 10.2vw;
+    height: 5.34vw;
+}
+
+/* Color of the actual button when hovered over */
+.dropbtn:hover {
+    color: #FFD700;
+}
+
+/* The container <div> - needed to position the dropdown content */
+.dropdown {
+    position: relative;
+    display: inline-block;
+    z-index: 99;
+}
+
+/* Dropdown Content (Hidden by Default) */
+.dropdown-content {
+    display: none;
+    position: absolute;
+    background-color: #000032;
+    width: 15.06vw;
+    box-shadow: 0px 0.778vw 1.555vw 0px rgba(0,0,0,0.2);
+    z-index: 98;
+}
+
+/* Links inside the dropdown */
+.dropdown-content a {
+    position: relative; 
+    color: white;
+    padding: 0.49vw 0.14vw;
+    font-size: 2.527vw;
+    text-decoration: none;
+    display: block;
+    z-index: 99;
+}
+
+/* Change color of dropdown links on hover */
+.dropdown-content a:hover {
+  color: #FFD700;
+}
+
+/* Show the dropdown menu on hover */
+.dropdown:hover .dropdown-content {
+    display: block;
+}
+
+/* Change the background color of the dropdown button when the dropdown content is shown */
+/*
+.dropdown:hover .dropbtn {
+    background-color: #101010;
+}
+*/
+
+
+/**********
+Home Page
+**********/
+
+#homedesc {
+  position: relative;
+  z-index: 80;
+  margin-left: 20vw;
+}
+
+#homedesc li {
+  text-align: left;
+	margin-top: 2.125vw;
+}
+
+#homedesc h3 {
+  border-style: solid;
+  border-width: 2px;
+  border-color: #000094;
+  margin-right: 2.125vw;
+  text-align: center;
+  background-color: #e2e2e2;
+  width: 10vw;
+  display: inline-block;
+  box-shadow: 0px 0.778vw 1.555vw 0px rgba(0,0,0,0.2);
+}
+
+#homedesc p {
+  display: inline-block;
+}
+
+#homedesc a:hover {
+  border-bottom-style: solid;
+  border-bottom-color: black;
+  border-bottom-width: 1px;
+  border-right-style: solid;
+  border-right-color: black;
+  border-right-width: 1px;
+}
+
+/**********
+Details
+**********/
+
+.abt {
+  font-size: 2.125vw;
+  font-weight: bold;
+}
+
+.abtp {
+	margin-top: 2.125vw;
+  line-height: 2.915vw;
+}
+
+
+/**********
+Gallery
+**********/
+
+#wrapper {
+  width: 90%;
+  margin: 0 auto;
+  padding: 0 5%;
+}
+
+img {
+  max-width: 100%;
+}
+
+#gallery {
+  position: relative;
+  z-index: 20;
+  list-style: none;
+  text-decoration: none;
+  margin: 0;
+}
+
+#gallery li {
+  float: left;
+  margin: 2.5%;
+  background-color: #e2e2e2;
+  color: black;
+}
+
+#gallery li a p {
+  margin: 0;
+  padding: 5%;
+  font-size: 1.5vw;
+  color: black;
+}
+
+#skills, #bonfire {
+  clear: left;
+}
+
+
+
+/**********
+Officers
+**********/
+
+#officer li {
+  margin-top: 2vw;
+}
+
+.officername {
+  text-align: center;
+}
+
+/**********
+Events
+**********/
+
+#events li {
+  margin: 5px 0 5px 0;
+  list-style: none;
+  font-size: 2vw;
+  font-weight: bold;
+}
+
+#events p {
+  font-size: 1.75vw;
+  margin: 10px 0 25px 0;
+  line-height: 2.915vw;
+}
+
+
+/**********
+Contact
+**********/
+
+#contact {
+  text-align: center;
+  position: relative;
+  z-index: 70;
+}
+
+.contacts a {
+  padding: 0.49vw 0.97vw;
+  color: #caa400;
+  text-decoration: underline;
+}
+
+.contacts a:hover {
+  color: #ddb500;
+}
+
+#contact h3 {
+  margin-top: 3vw;
+}
+
+
+/**********
+Making the selected 
+page link a different 
+color
+**********/
+.active {
+  color: #ddb500;
+}

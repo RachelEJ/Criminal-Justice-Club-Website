@@ -1,0 +1,75 @@
+@media screen and (min-width: 100px) {
+   #gallery li {
+    width: 28.3%;
+  }
+}
+
+
+@media screen and (min-width: 480px) {
+  
+  nav ul {
+    height: 5.93vw;
+  }
+  
+  
+/***************************
+PAGE: PORTFOLIO
+***************************/
+ 
+  
+  #wosign {
+    clear: left;
+  }
+  
+  
+
+}
+
+/* 426px width */
+
+@media screen and (min-width: 0 ) {
+  
+  nav ul {
+    height: 6vw;
+  }
+
+
+}
+
+@media screen and (min-width: 1080px) {
+  
+  
+  p {
+    text-align: left;
+  }
+ 
+  .abt {
+    text-align: left;
+  }
+	
+  #events li {
+    text-align: left;
+  }
+	
+	#events h3 {
+		text-align: left;
+	}
+  
+  header {
+    margin-top: 2vw;
+  }
+  
+  nav ul {
+    height: 4vw;
+  }
+  
+  nav li {
+    height: 4vw;
+  }
+  
+  .dropbtn {
+    height: 4vw;
+  }
+  
+  
+}
